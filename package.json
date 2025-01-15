@@ -1,0 +1,55 @@
+{
+  "name": "testautomation",
+  "version": "1.0.0",
+  "description": "**Setup Pre-Reqs for Cypress**\r Install VS Code and Node Js Latest Version\r Create a new Repository and Clone it to your folder\r Open the folder in VS Code \r **Run the following commands in same order**\r npm init\r npm install cypress --save-dev\r **For Running scripts on Terminal inside VS Code**\r npx cypress run\r **For Running scripts on browser using Test Runner**\r npx cypress open",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:test": "cypress run --spec 'cypress/e2e/tests/createRoutingForAndroidApp.cy.js' --headed browser chrome",
+    "cypress:pickuptest": "cypress run --spec 'cypress/e2e/tests/createPickupDeliveryForAndroidApp.cy.js' --headed browser chrome",
+    "cypress:directdeliverytest": "cypress run --spec 'cypress/e2e/tests/createDirectDeliveryRouteForAndroidApp.cy.js' --headed browser chrome",
+    "cypress:verifyCompletedRoute": "cypress run --spec 'cypress/e2e/tests/shipmentVerification/verifyCompletedRoute.cy.js' --headed browser chrome",
+    "cypress:verifyCompletedPickupRoute": "cypress run --spec 'cypress/e2e/tests/shipmentVerification/verifyPickupRouteWithTypeDrop.cy.js' --headed browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/grep": "^4.1.0",
+    "@optimumqa/cypress-setup-utilities": "1.7.0",
+    "@optimumqa/cypress-store": "1.0.3",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "@types/node": "^22.7.6",
+    "allure-commandline": "^2.22.1",
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-iframe": "1.0.1",
+    "cypress-localstorage-commands": "2.2.6",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "1.6.4",
+    "cypress-plugin-api": "^2.10.3",
+    "cypress-plugin-steps": "^1.1.1",
+    "del": "8.0.0",
+    "fs-extra": "^11.1.0",
+    "husky": "^9.1.6",
+    "hygen": "6.2.11",
+    "mocha": "10.7.3",
+    "mochawesome": "7.1.3",
+    "mochawesome-merge": "4.3.0",
+    "mochawesome-report-generator": "6.2.0",
+    "path": "^0.12.7",
+    "prettier": "3.3.3",
+    "testautomation": "file:",
+    "typescript": "5.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EEL-DataSystems/TestAutomation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EEL-DataSystems/TestAutomation.git"
+  },
+  "homepage": "https://github.com/EEL-DataSystems/TestAutomation#readme",
+  "devDependencies": {
+    "cypress": "^13.17.0",
+    "cypress-real-events": "^1.13.0"
+  }
+}
