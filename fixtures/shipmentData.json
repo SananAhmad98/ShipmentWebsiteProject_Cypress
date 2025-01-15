@@ -1,0 +1,52 @@
+{
+  "pickupShipmentStatus": "Pending",
+  "deliveryShipmentStatus": "Pending",
+  "directDeliveryShipmentStatus": "Pending",
+  "org":"Demo Org",
+  "forwarder": "360 LOGISTICS & TRANSPORTATION INC.",
+  "forwarderOnCredit":"forwarderOnCreditHold",
+  "forwarderPRONumber": "1122334455",
+  "contactOption": "useExisting",
+  "recoveryOption": "useExisting",
+  "recoverySearchName": "FORWARD AIR",
+  "newDescription": "New Demo Cost",
+  "shipperInformation": {
+    "locationName": "StoneRidgeDr",
+    "addressLine1": "759 S Fraser St",
+    "city": "Aurora",
+    "state": "CO",
+    "zip": "80012",
+    "name": "Tamoor",
+    "phone": "+1345676546",
+    "searchName": "FORWARD AIR"
+  },
+  "costingfilepath": "cypress/uploadshipment/CudaPdf.pdf",
+  "filePath1": "cypress/uploadshipment/cuda.png",
+  "filePath5mb":"cypress/uploadshipment/Sample-jpg-image-5mb.jpg",
+  "shipmentCostingChargeCode": [
+    "ATMPTDL",
+    "IN",
+    "DISP",
+    "TMAN"
+  ],
+  "shipmentChargeDescription": [
+    "Demo Cost for ATMPTDL",
+    "Demo Cost for IN",
+    "Demo Cost for DISP",
+    "Demo Cost for TMAN"
+  ],
+  "shipmentCost": [
+    10.00,
+    15.00,
+    20.00,
+    40.00
+  ],
+  "podName": "John Smith",
+  "refineSearchOption": "Under Review",
+  "expectedClonedOrganization" :"Demo Org",
+  "expectedClonedCarrier" : "360 LOGISTICS & TRANSPORTATION INC.",
+  "expectedClonedStatus": "Pending",
+  "expectedClonedAddress1":"4555 Geneva St null, Denver CO, 80238-2563",
+  "expectedClonedAddress2":"4555 Geneva St , Denver CO, 80238-2563"
+
+}

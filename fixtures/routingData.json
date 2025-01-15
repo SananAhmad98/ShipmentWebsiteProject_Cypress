@@ -1,0 +1,20 @@
+{
+  "truckDriver01": "Tamoor Driver2",
+  "truckDriver02": "Demo3 Driver",
+  "shipments": [
+    {
+      "type": "PICKUP"
+    },
+    {
+      "type": "DROP"
+    }
+  ],
+  "dd_shipments": [
+    {
+      "type": "PICKUP"
+    },
+    {
+      "type": "DELIVERY"
+    }
+  ]
+}

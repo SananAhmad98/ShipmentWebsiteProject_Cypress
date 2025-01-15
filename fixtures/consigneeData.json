@@ -1,0 +1,14 @@
+{
+    "consigneeOption": "useExisting",
+    "consigneeInformation": {
+        "locationName": "North Kierland Blvd",
+        "addressLine1": "15205 North Kierland Blvd",
+        "addressLine2": "Suite 100",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip": "85254",
+        "name": "Tamoor",
+        "phone": "+1345676545",
+        "searchName": "Forward Air"
+    }
+}

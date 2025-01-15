@@ -1,0 +1,13 @@
+{
+    "toggleButtonsSet": [
+      "Appointment",
+      "Convention Center",
+      "Liftgate",
+      "Waiting Time (Tractor)"
+    ],
+    "untoggleButtonsSet": [
+      "Appointment",
+      "Convention Center"
+    ]
+  }
+  

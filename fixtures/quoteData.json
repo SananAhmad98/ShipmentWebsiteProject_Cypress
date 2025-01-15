@@ -1,0 +1,58 @@
+{
+    "deliveryQuote": {
+        "forwarder": "247 COURIER",
+        "designationType": "Delivery",
+        "date": "2024-07-30",
+        "expectedOptions": [
+            "airlinedroprecovery",
+            "Crating"
+        ],
+        "containOptions": [
+            "Airline Drop / Recovery",
+            "Crating"
+        ],
+        "dropOffZipCode": "80211",
+        "dropoffZone": "Zone: A - DENVER, CO",
+        "freightPieces": "5",
+        "freightWeightInLBS": "24",
+        "freightWeightMethod": "Total Weight"
+    },
+    "pickupQuote": {
+        "forwarder": "360 LOGISTICS & TRANSPORTATION INC.",
+        "designationType": "Pickup",
+        "date": "2024-07-30",
+        "expectedOptions": [
+            "airlinedroprecovery",
+            "Crating"
+        ],
+        "containOptions": [
+            "Airline Drop / Recovery",
+            "Crating"
+        ],
+        "pickupZipCode": "80211",
+        "pickupZone": "Zone: A - DENVER, CO",
+        "freightPieces": "5",
+        "freightWeightInLBS": "24",
+        "freightWeightMethod": "Total Weight"
+    },
+    "directDeliveryQuote": {
+        "forwarder": "360 LOGISTICS & TRANSPORTATION INC.",
+        "designationType": "Direct Delivery",
+        "date": "2024-07-30",
+        "expectedOptions": [
+            "airlinedroprecovery",
+            "Crating"
+        ],
+        "containOptions": [
+            "Airline Drop / Recovery",
+            "Crating"
+        ],
+        "dropOffZipCode": "80211",
+        "dropoffZone": "Zone: A - DENVER, CO",
+        "pickupZipCode": "80211",
+        "pickupZone": "Zone: A - DENVER, CO",
+        "freightPieces": "5",
+        "freightWeightInLBS": "24",
+        "freightWeightMethod": "Total Weight"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "org": "Next Gen Transportation",
+    "forwarder": "AIR 1 EXPRESS",
+    "pickupOrg": "Demo Org",
+    "pickupForwarder" : "360 LOGISTICS & TRANSPORTATION INC.",
+    "recoveryOption": "useExisting",
+    "consigneeOption": "useExisting",
+    "shipperOption": "useExisting",
+    "dropOption": "useExisting",
+    "recoverySearchName": "Parent Test",
+    "dropSearchName": "PATRICIA WATSON",
+    "consigneeSearchName": "Home Drop Test",
+    "shipperSearchName": "AMD INC.",
+    "freightPieces": "5",
+    "freightType": "Box",
+    "providerOption": "BETWEEN",
+    "toggleButtonsSet": [
+        "Military",
+        "Inside"
+    ],
+    "untoggleButtonsSet": [
+      "Liftgate",
+      "Waiting Time (Tractor)"
+    ]
+}
